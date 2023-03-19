@@ -17,6 +17,8 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 
+#definindo as cores..
+
 cor0 = '#000000' #preto
 cor1 = '#ffffff' #branco
 cor2 = '#91b7bf' #azul framde de cima
@@ -147,8 +149,6 @@ def inserir_despesas_b():
     grafico_bar()  #
     resumo()
 
-
-#porcentagem----------------------------------------------
 
 
 
@@ -520,7 +520,7 @@ e_observacao.place(x=115, y=160)
 
 
 
-l_excluir = Label(aba1, text= 'Excluir lançamento:', font=('verdana 11 '), bg=cor8)
+l_excluir = Label(aba1, text= 'Excluir lançamento:', font=('verdana 12 '), bg=cor8)
 l_excluir.place(x=15, y=255)
 
 bt1 = Button(aba1, text='Adicionar', command=inserir_despesas_b, font=('verdada 10 bold'), bg=cor5)
